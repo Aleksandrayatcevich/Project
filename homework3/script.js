@@ -27,10 +27,10 @@ var rab =[
     for(var i=0; i<people.length;i++){
         document.writeln(people[i].name);
     };
- /* Вычеслений всей суммы */            
+ /* Вычисление всей суммы */            
     var SumZ = rab.reduce(function(sum,arr){
         return sum + arr.zarplata;
     },0);
     document.write("Summa ="+SumZ);
-/* Вычеслений средней зарплаты */ 
+/* Вычисление средней зарплаты */ 
     document.write("  Srednee ="+SumZ/i);
