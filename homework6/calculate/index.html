@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>
+        calculate
+    </title>
+</head>
+
+<body>
+    <h1 align="center">Калькулятор</h1>
+    <div>
+       <p> Введите число 1 <input type="number" placeholder="Number1" id="ch1" min="1" max="999999" size="11">
+        <button type="button" id="paste" >Предыдущий ответ </button>
+    </p>
+    </div>
+    <div>
+        Введите число 2 <input type="number" placeholder="Number2" id="ch2" min="1" max="999999" size="11">
+        <button type="button" id="paste1">Предыдущий ответ </button>
+    </div>
+    <br>
+    <div> 
+        Выберите действие
+        <button type="button" id="+">+</button>
+        <button type="button" id="-">-</button>
+        <button type="button" id="/">/ </button>
+        <button type="button" id="*">* </button>
+        <button type="button" id="zap">Запомнить ответ</button>
+        <button type="button" id="clear"> Очистить</button>
+    </div>
+    <br>
+    <div>
+            Ответ <input type="text" id="ot" disabled size="15">
+    </div>
+
+<script src ="script.js"></script>
+
+</body>
+
+
+</html>
