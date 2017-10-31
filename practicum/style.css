@@ -1,0 +1,66 @@
+body{
+    background: linear-gradient(to left, #FCC15D, #F7D4A9);
+}
+button {
+    position: relative;
+    vertical-align: top;
+    width: 150px;
+    height: 40px;
+    padding: 0;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: rgba(165, 61, 0, 0.97);
+    border: 0;
+    border-bottom: 2px solid #c54e00;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #c54e00;
+    box-shadow: inset 0 -2px #c54e00;
+  }
+  button:active {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+
+  table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    text-align: left;
+    border-collapse: collapse;
+    border-radius: 20px;
+    box-shadow: 0 0 0 10px #F2906B;
+    color: #452F21;
+    }
+    th {
+    padding: 10px 8px;
+    background: white;
+    }
+    table th:first-child {
+    border-top-left-radius: 20px;
+    }
+    table th:last-child {
+    border-top-right-radius: 20px;
+    }
+    td {
+    border-top: 10px solid #F2906B;
+    padding: 8px;
+    background: white;
+    }
+    table td:first-child {
+    border-bottom-left-radius: 20px;
+    }
+    table td:last-child {
+    border-bottom-right-radius: 20px;
+    }
+    tr:hover td {background: #F7CB85;}
+    
+    .dd{
+        height: 300px;
+        width: 450px;
+        border: 5px solid black;
+        background-color: rgba(76, 227, 250, 0.75);
+    }
