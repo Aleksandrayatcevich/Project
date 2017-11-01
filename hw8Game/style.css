@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(to left, #FCC15D, #F7D4A9);
+}
+
+
+  .slovodel{
+    width: 288px;
+    height: 310px;
+    margin: 0 auto;
+}
+.slovodel div{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #141313;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    line-height: 70px;
+    font-size: 40px;
+}
+.column{
+    float: left;
+    margin-left: 10%;
+}
+#result input{
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    text-transform: uppercase;
+}
+#result,#error,#words{
+    margin: 20px auto;
+    display: block;
+    width: 320px;
+    text-transform: uppercase;
+}
